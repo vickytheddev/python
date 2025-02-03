@@ -1,21 +1,14 @@
-#mutable
-#[ ]
-#,
-#use indexing 0...
-
 marks=[90,80,85,75,70,80]
+
+#slicing
 print(marks[0])
-
-#list method
-print("\nlist method\n")
-
 print(marks[1:4])
 print(marks[1:])
 print(marks[:4])
-print(marks[-5:-2])  #negative indexing
-print(marks[0::2])  #start to end increment
-print(marks[-1::-2])  #end to start decrement
-print(marks[-1::-1]) #reverse
+print(marks[-5:-2]) 
+print(marks[0::2])  
+print(marks[-1::-2])  
+print(marks[-1::-1]) 
 
 marks.append(60)
 print(marks)
@@ -70,13 +63,3 @@ print(list)
 i=list.index(6)
 print(i)
 
-#mixed list
-list2=["vicky","mumbai","uvpce",1,5,2,3,5]
-print(list2)
-
-
-#nested list
-list=[1,2,3,[5,6,7]]
-print(list[0])
-print(list[3])
-print(list[3][1])

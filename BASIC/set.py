@@ -1,5 +1,4 @@
-#immutable  :- element
-#mutable  :-set
+
 collection={1,2,3,4,5,6,5,6,"hello","hello"}
 print(collection)
 print(len(collection))
@@ -10,6 +9,7 @@ print(type(collection1))
 
 #set method
 collection1.add(1)
+print(collection1)
 collection1.add(2)
 collection1.add(3)
 collection1.add((1,2,3,4,5))

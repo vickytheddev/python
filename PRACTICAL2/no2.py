@@ -1,0 +1,13 @@
+name= str(input("Enter your name:"))
+Enr_no= int(input("Enter enrollment number:"))
+Branch= str(input("Enter your branch:"))
+Age= int(input("Enter your age:"))
+Email= str(input("Enter email id:"))
+Mob_no= int(input("Enter mobile number:"))
+
+print(name)
+print(Enr_no)
+print(Branch)
+print(Age)
+print(Email)
+print(Mob_no)
