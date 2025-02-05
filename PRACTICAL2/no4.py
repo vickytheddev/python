@@ -1,5 +1,5 @@
-num=10
-print(type(num))
+n=10
+print(type(n))
 
 str="hello world"
 print(type(str))

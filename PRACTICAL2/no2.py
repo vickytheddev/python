@@ -5,6 +5,8 @@ Age= int(input("Enter your age:"))
 Email= str(input("Enter email id:"))
 Mob_no= int(input("Enter mobile number:"))
 
+print()
+
 print(name)
 print(Enr_no)
 print(Branch)
